@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/option_register"
+        android:title="Register">
+    </item>
+    <item  android:id="@+id/option_login"
+        android:title="Login">
+    </item>
+    <item  android:id="@+id/option_about_us"
+        android:title="About Us">
+    </item>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:textColor="@color/biru_mantap"
+        android:textSize="22sp"
+        android:textFontWeight="800"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Pegawai Sudah Digaji">
+    </TextView>
+    <TextView
+        android:id="@+id/TextViewSudahDigajiBulan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:textColor="@color/biru_mantap"
+        android:textSize="12sp"
+        android:textFontWeight="800"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/montserrat_bold">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="20dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerViewSudahDigaji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <android.widget.Button
+            android:id="@+id/ButtonBelumDigajiSudah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/formpendaftaranmahasiswareset"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textFontWeight="800"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Belum Digaji"
+            android:textAllCaps="false">
+        </android.widget.Button>
+        <android.widget.Button
+            android:id="@+id/ButtonSudahDigajiSudah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/formpendaftaranmahasiswasubmit"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textFontWeight="800"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Sudah Digaji"
+            android:textAllCaps="false">
+        </android.widget.Button>
+    </LinearLayout>
+
+</LinearLayout>
+

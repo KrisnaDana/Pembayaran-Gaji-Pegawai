@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Title</string>
+    <string name="judulAktivitas">Judul Aktivitas</string>
+    <string name="textMinus">-</string>
+    <string name="textPlus">+</string>
+    <string name="buttonReset">RESET</string>
+    <string name="angka">0</string>
+    <string name="underline"><u>underline</u></string>
+
+    <string-array name="prodi" textColor="#4E4D4D">
+        <item>Teknologi Informasi</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Arsitektur</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Lingkungan</item>
+    </string-array>
+
+    <string-array name="pilihBulan" textColor="#4E4D4D">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+</resources>

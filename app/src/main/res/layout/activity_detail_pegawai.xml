@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:textColor="@color/biru_mantap"
+        android:textSize="22sp"
+        android:textFontWeight="800"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Pegawai Sudah Digaji">
+    </TextView>
+    <TextView
+        android:id="@+id/TextViewDetailPegawaiBulan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:textColor="@color/biru_mantap"
+        android:textSize="12sp"
+        android:textFontWeight="800"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/montserrat_bold">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fotoPegawai"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center"
+                android:src="@drawable/blank_profile">
+            </ImageView>
+
+            <!--        Nama Lengkap-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/biru_mantap"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="NAMA LENGKAP">
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewNamaPegawai"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#4E4D4D"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="15dp">
+            </TextView>
+
+            <!--Alamat-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/biru_mantap"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="ALAMAT">
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewAlamatPegawai"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#4E4D4D"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="15dp">
+            </TextView>
+
+            <!--Gaji-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/biru_mantap"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="NILAI GAJI">
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewGajiPegawai"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#4E4D4D"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="15dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/biru_mantap"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="TANGGAL GAJI">
+            </TextView>
+            <TextView
+                android:id="@+id/TextViewTanggalGaji"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#4E4D4D"
+                android:textSize="18sp"
+                android:textFontWeight="800"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp">
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <!--        Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+        <android.widget.Button
+            android:id="@+id/ButtonPegawaiKembali"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/formpendaftaranmahasiswareset"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textFontWeight="800"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Kembali"
+            android:textAllCaps="false">
+        </android.widget.Button>
+    </LinearLayout>
+
+</LinearLayout>
